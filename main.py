@@ -12,7 +12,7 @@ if __name__ == "__main__":
         elif sys.argv[1] == "summarize":
             summarize = Summarize.latest()
         else:
-            print("Invalid argument. Usage: python3 main.py [record/transcribe]")
+            print("Invalid argument. Usage: python3 main.py [record/transcribe/summarize]")
     else:
         Record.inputAudio()
         Transcribe.latest()
