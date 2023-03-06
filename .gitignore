@@ -1,0 +1,3 @@
+m_venv/
+*.DS_Store
+secrets.env
