@@ -4,9 +4,6 @@ from pydub import AudioSegment
 import time
 import os
 
-AUDIO_INPUT_NAME = "arctis 7 chat"
-AUDIO_OUTPUT_NAME = "arctis 7 game"
-
 def inputAudio():
     time_str = time.strftime("%Y%m%d-%H%M%S")
 
