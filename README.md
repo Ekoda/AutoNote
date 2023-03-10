@@ -21,3 +21,13 @@ To install AutoNote, you need to have python 3.7 or higher and pip installed on 
 3. Install the required dependencies: `pip install -r requirements.txt`
 4. Set up your OpenAI API key to use the openAI API: https://docs.openai.com/docs/api-reference/authentication
 5. Run the main.py file: `python main.py` to record, transcribe or summarize the latest file added use arguments such as: `python main.py transcribe`
+
+## Contributing
+
+The project is still in its infancy and its future unclear, but AutoNote is an open-source project and contributions are welcome. If you want to contribute, please follow these steps:
+
+1. Fork this repository: https://github.com/Ekoda/AutoNote/fork
+2. Create your feature branch: `git checkout -b feature/fooBar`
+3. Commit your changes: `git commit -am 'Add some fooBar'`
+4. Push to the branch: `git push origin feature/fooBar`
+5. Create a new pull request: https://github.com/Ekoda/AutoNote/compare
