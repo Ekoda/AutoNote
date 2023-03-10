@@ -11,7 +11,7 @@ def latest():
     model = whisper.load_model("medium")
     result = model.transcribe(latest_file, fp16=False)
 
-    with open(f"trancription/files/{time_str}.txt", "w+") as f:
+    with open(f"trancription/files/{time_str}.txt", "a+") as f:
         f.write(result["text"])
 
     print("transcription done")

@@ -16,3 +16,4 @@ if __name__ == "__main__":
     else:
         Record.inputAudio()
         Transcribe.latest()
+        Summarize.latest()
