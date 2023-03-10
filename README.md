@@ -4,6 +4,8 @@
 
 AutoNote is a python project that automatically transcribes and summarizes audio files using Whisper speech recognition and OpenAI language models. Originally the idea stemmed from me wanting to automate my note-taking in meetings.
 
+The results will vary depending on audio, model and of course meeting quality. Vague and opaque meetings will produce simliar results. However, I expect the future to bring vasts improvements in both transcription and language models, perhaps advancements in multi modal language models will allow us to skip the transcription step altogether - incredible results will follow.
+
 ## Features
 
 - Transcribe audio files in various formats (wav, mp3, etc) using the Whisper speech recognition model from OpenAI
