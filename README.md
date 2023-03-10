@@ -11,7 +11,7 @@ The results will vary depending on audio, model and of course meeting quality. V
 - Transcribe audio files in various formats (wav, mp3, etc) using the Whisper speech recognition model from OpenAI
 - Summarize transcribed text using OpenAI language models such as GPT-3 or Codex
 - Save transcribed and summarized text as txt files
-- Record audio from microphone and transcribe it
+- Record audio from microphone then transcribe and summarize it
 - Run the project as a command-line tool
 
 ## Installation
